@@ -1,24 +1,52 @@
+
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8" />
-        <title>Мой эксперимент с CSS</title>
-        <link rel="stylesheet" href="style.css">
-        <script scr="script.js">
-        </script>
-    </head>
-     <body>
-         <h1 align = "center" > FeliX LuXury вас приветствует!</h1>
-         <p>Вычисление минимального числа</p>
-         <input type ="text" id="a" placeholder="Ввод первого числа">
-         <br>
-         <br>
-         <input type ="text" id="b" placeholder="Ввод второго числа">
-         <br>
-         <br>
-         <input type ="button" id="btn" value ="Вычислить">
-     </body>
-     <script>
-         btn.add
-     </script>
-</html>             
+<head>
+    <meta charset = "utf-8" />
+    <title>HTML Document</title>
+    <link rel = "stylesheet" href = "style.css">
+    <script src = "script.js"></script>
+</head>
+<body>
+<h1 align="left">🐈🖤 FeliX LuXury Production 🖤🐈 АДБ-18-07 </h1>
+
+<h2>Индивидуальное задание №1 : Проверка равенства чисел</h2>
+<form name="form1">
+    <h3> A = <input type="text" name="A" size="4" placeholder="Input A"> </h3>
+    <h3> B = <input type="text" name="B" size="4" placeholder="Input B"></h3>     
+    <input type="button" value="Проверка равенства" onClick="equal()" />     
+    <h3>Вывод = <output type="text" name="q" size="20" placeholder="Output"></h3>
+    </form>
+
+    <h2>Индивидуальное задание №2:</h2>
+    <h2>Взаимодействие с пользователем</h2>
+    <form name="form2">
+        <h3>Admin:</h3>
+        <input type="button" value="Вывести" onClick="Show()" />
+    </form>
+
+    <h2>Индивидуальное задание №3:</h2></font>
+    <h2>Запрос возраста</h2></font>
+    <form name="form3">
+        <h3>Возраст:</h3>
+        <input type="button" value="Вывести" onClick="Age()" />      
+    </form>
+    <h2>Индивидуальное задание №4:</h2>
+    <h2> Информация о создателе сайта </h2>
+        <form name="form4">
+            <img src="felix.JPG" alt="Photo" height="150" width="150">
+                <h4> ФИО: Куликовский Богдан Александрович<br> </h4>
+                <h3>Возраст: 20 лет<br>
+            Пол: Мужской<br>
+            Город: Краснодар<br>
+            <br></h3>
+            <br> <br>
+        </form>
+    <h2>Анкета: Индивидуальное задание №5</h2>
+    <h2>Расскажите о себе!</h2>
+    <h3> Как вас зовут? <input type="text" name="n" size="20" placeholder="Фамилия Имя" required></h3>
+    <h3><input type="checkbox" id="one" onClick="fun1()"> -  Студент </h3>
+    <h3><input type="checkbox" id="one" onClick="fun1()"> -  Работающий </h3>
+    <h3><input type="checkbox" id="one" onClick="fun1()"> -  Неработающий </h3>
+    <h3> Укажите свой возраст <input type="number" name="m" size="10" placeholder="Возраст"required min="1" max = "100"></h3>
+    <h3> Оставьте свой комментарий <input type="text" name="t" size="30" placeholder="Ваш комментарий" required></h3>
+    <input type="button" value="Отправить на сервер" onClick="Com()">

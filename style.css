@@ -1,11 +1,40 @@
-h1 
+h1
+    {
+        color:  rgb(192, 70, 186);
+        border-right-width: thin;
+            font-size:50pt;
+        text-shadow: 2px 2px 2px black, 0 0 1em whitesmoke;
+    }
+    h3
+    {
+        color: rgb(253, 249, 24);
+        text-shadow: 2px 2px 2px black, 0 0 1em rgb(10, 10, 10);
+        font-size: x-large;
+    }  
+h2
+    {
+        color:  rgb(250, 127, 11); 
+        text-shadow: 1px 1px 1px black, 0 0 0em rgb(10, 10, 10);
+        font-size: xx-large;
+    }
+
+p
 {
- color: rgb(195, 0, 255);
- background-color: rgb(0, 255, 200);
- border: 1px solid black;
- text-shadow: 2px 2px black;
+    font-size:xx-large;
+    color:S rgb(23, 221, 23);
 }
-p 
-{
- color: rgb(0, 0, 0);
+html
+{   
+    
+    background: url(кот.jpg);
+    background-size:cover;
 }
+h4:hover
+    { 
+        font-size:60pt;
+        color: rgb(31, 169, 223);
+        text-shadow: 2px 2px 2px black, 0 0 1em rgb(10, 10, 10);
+    }
+    img {
+        border: 5px solid #000000;
+    }
